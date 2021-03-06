@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="data-structure-and-algorithm" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="data-structure-and-algorithm" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="data-structure-and-algorithm" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="data-structure-and-algorithm" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Go File" />
+        <option value="Class" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.1/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="JupyterTrust" id="83116fdf-b3b4-494b-8e83-e1bc91ee5277" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1gV2Zt28ikdpbXWAjBLfydpmZjN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/basic/topk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.51793927" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="tree" />
+      <recent name="0027.MirrorTree" />
+      <recent name="java" />
+      <recent name="binary-search" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/leetcode/0094.binary-tree-inorder-traversal" />
+      <recent name="$PROJECT_DIR$/leetcode/0145.binary-tree-postorder-traversal" />
+      <recent name="$PROJECT_DIR$/leetcode/0144.binary-tree-preorder-traversal" />
+      <recent name="$PROJECT_DIR$/leetcode/0146.lru-cache" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="BinarySearch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/basic/lru" />
+      <recent name="$PROJECT_DIR$/basic/tree" />
+      <recent name="$PROJECT_DIR$/basic/single-list" />
+      <recent name="$PROJECT_DIR$/basic/dynamic-programming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InOrderTraversal" />
+      <module name="data-structure-and-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="go build data-structure-and-algorithm/leetcode/0014.Longest-Common-Prefix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-and-algorithm" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/leetcode/0014.Longest-Common-Prefix/LongestCommonPrefix.go" />
+      <package value="data-structure-and-algorithm/leetcode/0014.Longest-Common-Prefix" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLongestCommonPrefix in data-structure-and-algorithm/leetcode/0014.Longest-Common-Prefix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-and-algorithm" />
+      <working_directory value="$PROJECT_DIR$/leetcode/0014.Longest-Common-Prefix" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="data-structure-and-algorithm/leetcode/0014.Longest-Common-Prefix" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestLongestCommonPrefix\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-and-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_SelectionSort.Test.test_sort" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-and-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SelectionSort.Test.test_sort&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="" />
+      <created>1598185498910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598185498910</updated>
+      <workItem from="1598185501062" duration="234000" />
+      <workItem from="1598186948223" duration="3363000" />
+      <workItem from="1598881514098" duration="1357000" />
+      <workItem from="1598882991319" duration="181000" />
+      <workItem from="1598883212127" duration="2000" />
+      <workItem from="1599575031976" duration="7000" />
+      <workItem from="1606137175151" duration="686000" />
+      <workItem from="1606312269331" duration="877000" />
+      <workItem from="1606313227575" duration="301000" />
+      <workItem from="1606313534401" duration="203000" />
+      <workItem from="1606313930922" duration="14000" />
+      <workItem from="1606313950188" duration="6000" />
+      <workItem from="1606315443239" duration="266000" />
+      <workItem from="1606315720331" duration="102000" />
+      <workItem from="1606315916040" duration="264000" />
+      <workItem from="1606316187488" duration="229000" />
+      <workItem from="1606316909337" duration="35000" />
+      <workItem from="1606316953363" duration="148000" />
+      <workItem from="1606317107445" duration="318000" />
+      <workItem from="1607006842105" duration="62000" />
+      <workItem from="1607007216208" duration="456000" />
+      <workItem from="1607008194532" duration="522000" />
+      <workItem from="1607008722380" duration="267000" />
+      <workItem from="1607008995680" duration="35000" />
+      <workItem from="1607009228348" duration="3000" />
+      <workItem from="1607009275312" duration="1388000" />
+      <workItem from="1607010926476" duration="616000" />
+      <workItem from="1607011969489" duration="245000" />
+      <workItem from="1607435682799" duration="497000" />
+      <workItem from="1608559071888" duration="494000" />
+      <workItem from="1608560217945" duration="2893000" />
+      <workItem from="1611498268561" duration="1200000" />
+      <workItem from="1614695479892" duration="1275000" />
+      <workItem from="1614781271873" duration="811000" />
+      <workItem from="1614782303534" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/changqing/workspace/mynote/data-structure-and-algorithm/basic/tree" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="200" y="4" key="#Project_Structure" timestamp="1614782897641">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="200" y="4" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1614782897641" />
+    <state x="300" y="70" width="1124" height="980" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608560203910">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="300" y="70" width="1124" height="980" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1608560203910" />
+    <state x="543" y="161" key="#com.intellij.ide.util.MemberChooser" timestamp="1614695520051">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="543" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1614695520051" />
+    <state x="513" y="251" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606313572893">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="513" y="251" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606313572893" />
+    <state x="512" y="221" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611498578644">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="512" y="221" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1611498578644" />
+    <state width="1628" height="310" key="GridCell.Tab.0.bottom" timestamp="1614867007558">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1628" height="291" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1613318646639" />
+    <state width="1628" height="310" key="GridCell.Tab.0.bottom/0.0.1680.974@0.0.1680.974" timestamp="1614867007558" />
+    <state width="1628" height="310" key="GridCell.Tab.0.center" timestamp="1614867007558">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1628" height="291" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1613318646638" />
+    <state width="1628" height="310" key="GridCell.Tab.0.center/0.0.1680.974@0.0.1680.974" timestamp="1614867007558" />
+    <state width="1628" height="310" key="GridCell.Tab.0.left" timestamp="1614867007557">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1628" height="291" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1613318646638" />
+    <state width="1628" height="310" key="GridCell.Tab.0.left/0.0.1680.974@0.0.1680.974" timestamp="1614867007557" />
+    <state width="1628" height="310" key="GridCell.Tab.0.right" timestamp="1614867007558">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1628" height="291" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1613318646638" />
+    <state width="1628" height="310" key="GridCell.Tab.0.right/0.0.1680.974@0.0.1680.974" timestamp="1614867007558" />
+    <state width="1628" height="310" key="GridCell.Tab.1.bottom" timestamp="1614867007560">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1083" height="349" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609080480013" />
+    <state width="1628" height="310" key="GridCell.Tab.1.bottom/0.0.1680.974@0.0.1680.974" timestamp="1614867007560" />
+    <state width="1628" height="310" key="GridCell.Tab.1.center" timestamp="1614867007559">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1083" height="349" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609080480012" />
+    <state width="1628" height="310" key="GridCell.Tab.1.center/0.0.1680.974@0.0.1680.974" timestamp="1614867007559" />
+    <state width="1628" height="310" key="GridCell.Tab.1.left" timestamp="1614867007559">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1083" height="349" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609080480012" />
+    <state width="1628" height="310" key="GridCell.Tab.1.left/0.0.1680.974@0.0.1680.974" timestamp="1614867007559" />
+    <state width="1628" height="310" key="GridCell.Tab.1.right" timestamp="1614867007559">
+      <screen x="0" y="0" width="1680" height="974" />
+    </state>
+    <state width="1083" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609080480013" />
+    <state width="1628" height="310" key="GridCell.Tab.1.right/0.0.1680.974@0.0.1680.974" timestamp="1614867007559" />
+    <state x="232" y="9" key="SettingsEditor" timestamp="1608560244976">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="232" y="9" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608560244976" />
+    <state x="608" y="297" key="chooseDestDirectoryDialog" timestamp="1609076154066">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="608" y="297" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609076154066" />
+    <state x="455" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607010684382">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="455" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1607010684382" />
+    <state x="564" y="300" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609076154094">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="564" y="300" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609076154094" />
+    <state x="470" y="94" width="740" height="861" key="find.popup" timestamp="1614698012866">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="470" y="94" width="740" height="861" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614698012866" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1611498455105">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611498455105" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structure_and_algorithm$Unittests_for_test_InOrderTraversal_TestInOrderTraversal_test_inorder_traversal.coverage" NAME="Unittests for test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal Coverage Results" MODIFIED="1614782091550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/tree" />
+  </component>
+</project>
