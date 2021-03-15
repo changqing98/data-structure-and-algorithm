@@ -13,11 +13,6 @@ public class MergeKSortedLists{
         if (i == j){
             return lists[i];
         }
-        if(j - i == 1){
-            ListNode li = lists[i];
-            ListNode lj = lists[j];
-            return merge(li, lj);
-        }
         int mid = (i + j) / 2;
         ListNode li = mergeLists(lists, i, mid);
         ListNode lj = mergeLists(lists, mid + 1, j);
