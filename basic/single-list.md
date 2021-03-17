@@ -1,6 +1,6 @@
 # 玩转单链表
 
-[TOC]
+\[TOC\]
 
 ## 单链表反转
 
@@ -36,3 +36,4 @@ public static Node reverseByRecursion(Node head) {
     return pre;
 }
 ```
+

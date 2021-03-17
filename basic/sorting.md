@@ -2,7 +2,7 @@
 
 本文主要介绍了八大基本排序算法的设计思想及实现原理，努力更新中💪💪💪
 
-[toc]
+\[toc\]
 
 ## 快速排序
 
@@ -90,7 +90,7 @@ public static void adjustHeap(int[] array, int i, int len) {
 
 ## 插入排序
 
-时间复杂度：$O(n^2)$
+时间复杂度：$O\(n^2\)$
 
 ```java
 public static void insertionSort(int[] array) {
