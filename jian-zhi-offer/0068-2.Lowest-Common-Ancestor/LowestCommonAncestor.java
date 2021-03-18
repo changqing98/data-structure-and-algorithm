@@ -13,15 +13,4 @@ public class LowestCommonAncestor2 {
         }
         return root;
     }
-
-	private static class TreeNode {
-		int val;
-		LowestCommonAncestor2.TreeNode left;
-		LowestCommonAncestor2.TreeNode right;
-		TreeNode(int x) { val = x; }
-	}
-
-    public static void main(String[] args) {
-
-    }
 }

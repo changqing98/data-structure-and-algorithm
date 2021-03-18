@@ -6,7 +6,7 @@ class TreeNodeTraversal:
         self.right = None
 
 
-class LowestCommonAncestor2:
+class LowestCommonAncestor:
     def lowestCommonAncestor(self, root: TreeNodeTraversal, p: TreeNodeTraversal, q: TreeNodeTraversal) -> TreeNodeTraversal:
         if root is None or p == root or q == root:
             return root
@@ -20,4 +20,4 @@ class LowestCommonAncestor2:
 
 
 if __name__ == '__main__':
-    LowestCommonAncestor2()
+    LowestCommonAncestor()
