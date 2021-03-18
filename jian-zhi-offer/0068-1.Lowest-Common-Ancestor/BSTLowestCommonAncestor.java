@@ -1,4 +1,4 @@
-public class LowestCommonAncestor {
+public class BSTLowestCommonAncestor {
 	public TreeNodeTraversal lowestCommonAncestor(TreeNodeTraversal root, TreeNodeTraversal p, TreeNodeTraversal q) {
 		while (root != null) {
 			if (root.val > p.val && root.val > q.val) {

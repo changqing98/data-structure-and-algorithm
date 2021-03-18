@@ -8,7 +8,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="" />
+    <list default="true" id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/0236.lowest-common-ancestor-of-a-binary-tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data-structure-and-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structure-and-algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-1.Lowest-Common-Ancestor/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-1.Lowest-Common-Ancestor/BSTLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor2.py" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +81,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.1/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -112,7 +121,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.51793927" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -142,7 +151,14 @@
       <recent name="$PROJECT_DIR$/basic/dynamic-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal">
+  <component name="RunManager" selected="Application.InOrderTraversal">
+    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InOrderTraversal" />
+      <module name="data-structure-and-algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -152,13 +168,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InOrderTraversal" />
-      <module name="data-structure-and-algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,6 +266,8 @@
       <workItem from="1614695479892" duration="1275000" />
       <workItem from="1614781271873" duration="811000" />
       <workItem from="1614782303534" duration="609000" />
+      <workItem from="1616073700149" duration="319000" />
+      <workItem from="1616074025234" duration="319000" />
     </task>
     <servers />
   </component>
@@ -324,10 +335,6 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="543" y="161" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1614695520051" />
-    <state x="513" y="251" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606313572893">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="513" y="251" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606313572893" />
     <state x="512" y="221" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611498578644">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -372,18 +379,14 @@
     </state>
     <state width="1083" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609080480013" />
     <state width="1628" height="310" key="GridCell.Tab.1.right/0.0.1680.974@0.0.1680.974" timestamp="1614867007559" />
-    <state x="232" y="9" key="SettingsEditor" timestamp="1608560244976">
+    <state x="232" y="9" key="SettingsEditor" timestamp="1616074267371">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="232" y="9" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608560244976" />
+    <state x="232" y="9" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1616074267371" />
     <state x="608" y="297" key="chooseDestDirectoryDialog" timestamp="1609076154066">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="608" y="297" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609076154066" />
-    <state x="455" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607010684382">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="455" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1607010684382" />
     <state x="564" y="300" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1609076154094">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -396,8 +399,5 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611498455105" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structure_and_algorithm$Unittests_for_test_InOrderTraversal_TestInOrderTraversal_test_inorder_traversal.coverage" NAME="Unittests for test_InOrderTraversal.TestInOrderTraversal.test_inorder_traversal Coverage Results" MODIFIED="1614782091550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/tree" />
   </component>
 </project>

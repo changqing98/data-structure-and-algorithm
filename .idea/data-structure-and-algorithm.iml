@@ -130,6 +130,7 @@
       <sourceFolder url="file://$MODULE_DIR$/basic/sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basic/topk" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basic/tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/leetcode/0236.lowest-common-ancestor-of-a-binary-tree" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
