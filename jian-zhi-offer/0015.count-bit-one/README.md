@@ -38,16 +38,62 @@
 
 ## 题解
 
+### 解法一：最优解
+
+**时间复杂度：$O(m)$ ，m为1的个数**
+
+**空间复杂度：$O(1)$​**
+
+**算法步骤：**
+
+1.  初始化统计结果变量count
+
+2.  如果 $n != 0$ 统计结果+1
+
+3.  $n \&= n - 1$ 消除最右边的一个1，继续遍历
+
+    n &= n - 1可以消除最右边的1，原理大家自行探究，其具体表现为：
+
+    例如：取n = 100100， 则 n - 1 = 100011
+
+    则 n & n - 1 = 100000，最右边的1
+
+4.  返回统计结果
+
 ```java
-public class Solution {
-    public int hammingWeight(int n) {
+    public int hammingWeight2(int n) {
         int count = 0;
-        while(n != 0){
-            count += n & 1;
-            n >>>= 1;
+        while (n != 0) {
+            count++;
+            n &= n - 1;
         }
         return count;
     }
-}
+```
+
+
+
+### 解法二：普通解法（易于理解）
+
+**时间复杂度：O($log_2n$)** 
+
+**空间复杂度：$O(1)$**
+
+**算法步骤：**
+
+1.  初始化统计结果变量count
+2.  从低位到高位遍历每一个二进制位，如果 $ n \& 1$ 运算比较为1，则统计结果+1
+3.  右移一个比特位，继续遍历
+4.  返回统计结果
+
+```java
+    public int hammingWeight(int n) {
+        int count = 0;
+        while (n != 0) {
+            count += n & 1;
+            n = n >>> 1;
+        }
+        return count;
+    }
 ```
 
