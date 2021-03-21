@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-public class FindMedian{
+public class MedianFinder{
         int count = 0;
         PriorityQueue<Integer> maxHeap;
         PriorityQueue<Integer> minHeap;
@@ -14,7 +14,7 @@ public class FindMedian{
             maxHeap.add(num);
             minHeap.add(maxHeap.poll());
             if(count % 2 == 1){
-                max.add(minHeap.poll());
+                maxHeap.add(minHeap.poll());
             }
         }
 
@@ -24,6 +24,5 @@ public class FindMedian{
             }else {
                 return maxHeap.peek();
             }
-
         }
 }
