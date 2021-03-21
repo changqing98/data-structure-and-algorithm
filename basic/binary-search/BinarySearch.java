@@ -1,22 +1,45 @@
 public class BinarySearch {
-	static int rank(int target, int[] a) {
+	public int search(int target, int[] arr) {
 		int l = 0;
-		int r = a.length - 1;
+		int r = arr.length - 1;
 		while (l <= r) {
-			int x = (l + r) / 2;
-			if (a[x] > target) {
-				l = x + 1;
-			} else if (a[x] < target) {
-				r = x - 1;
+			int mid = (l + r) / 2;
+			if (arr[mid] > target) {
+				r = mid;
+			} else if (arr[mid] < target) {
+				l = mid + 1;
 			} else {
-				return x;
+				return mid;
 			}
 		}
-
 		return -1;
 	}
 
-	public static void main(String[] args) {
-		System.out.println(rank(5, new int[]{1, 2, 3, 4, 5, 6, 7, 7, 8, 9}));
+	public int searchLeftMost(int target, int[] arr) {
+		int l = 0;
+		int r = arr.length;
+		while (l < r) {
+			int mid = (l + r) / 2;
+			if (arr[mid] >= target) {
+				r = mid;
+			} else {
+				l = mid + 1;
+			}
+		}
+		return l;
+	}
+
+	public int searchRightMost(int target, int[] arr) {
+		int l = 0;
+		int r = arr.length;
+		while (l < r) {
+			int mid = (l + r) / 2;
+			if (arr[mid] > target) {
+				r = mid;
+			} else {
+				l = mid + 1;
+			}
+		}
+		return l - 1;
 	}
 }
