@@ -61,7 +61,7 @@
 4.  返回统计结果
 
 ```java
-    public int hammingWeight2(int n) {
+    public int hammingWeight(int n) {
         int count = 0;
         while (n != 0) {
             count++;
