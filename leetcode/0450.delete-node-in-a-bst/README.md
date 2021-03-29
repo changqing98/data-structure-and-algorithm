@@ -40,13 +40,11 @@ key = 3
     4   7
 ```
 
-
-
-##  题解
+## 题解
 
 ```java
 public class DeleteNode {
-    
+
     // 大于node结点的最小结点
     private int next(TreeNode node) {
         node = node.right;
@@ -55,7 +53,7 @@ public class DeleteNode {
         }
         return node.val;
     }
-    
+
     // 小于node结点的最大结点
     private int pre(TreeNode node) {
         node = node.left;
@@ -85,7 +83,6 @@ public class DeleteNode {
             }
         }
         return root;
-    
+
 }
 ```
-
