@@ -10,6 +10,7 @@ public class Fibonacci {
         }
         return a;
     }
+
     public static void main(String[] args) {
         Fibonacci test = new Fibonacci();
         System.out.println(test.fib(5));
