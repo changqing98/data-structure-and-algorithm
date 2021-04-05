@@ -15,13 +15,4 @@ public class GetKthFromEnd {
 		}
 		return slow;
 	}
-
-	public static void main(String[] args) {
-
-	}
-
-	private static class ListNode {
-		int val;
-		ListNode next;
-	}
 }
