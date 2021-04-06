@@ -22,17 +22,17 @@ func (node *ListNode) String() string {
 }
 
 func reverse(head *ListNode) *ListNode {
-	if head == nil {
+	if head == nil || head.next == nil {
 		return head
 	}
-	var cur = head.next
-	head.next = nil
-	var tmp *ListNode
+	var cur = head
+	var pre *ListNode = nil
+	var next *ListNode
 	for cur != nil {
-		tmp = cur.next
-		cur.next = head
-		head = cur
-		cur = tmp
+		next = cur.next
+		cur.next = pre
+		pre = cur
+		cur = next
 	}
 	return head
 }

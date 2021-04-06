@@ -21,4 +21,11 @@ public class ListNode {
 			", next=" + next +
 			'}';
 	}
+
+    static {
+        ListNode node3 = new ListNode(3, null);
+        ListNode node2 = new ListNode(2, node3);
+        ListNode node1 = new ListNode(1, node2);
+        ListNode node = new ListNode(0, node1);
+    }
 }
