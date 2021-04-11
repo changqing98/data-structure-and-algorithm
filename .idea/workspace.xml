@@ -9,14 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/0236.lowest-common-ancestor-of-a-binary-tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/mm/mm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/pipe.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/pipe.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/wait.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/wait.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/unix_progranmming.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/unix_progranmming.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data-structure-and-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structure-and-algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-1.Lowest-Common-Ancestor/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-1.Lowest-Common-Ancestor/BSTLowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor2.py" beforeDir="false" afterPath="$PROJECT_DIR$/jian-zhi-offer/0068-2.Lowest-Common-Ancestor/LowestCommonAncestor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/dynamic-programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/dynamic-programming/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../system-design/raft4j" beforeDir="false" afterPath="$PROJECT_DIR$/../system-design/raft4j" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +165,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="go build data-structure-and-algorithm/leetcode/0014.Longest-Common-Prefix" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="data-structure-and-algorithm" />
       <working_directory value="$PROJECT_DIR$" />
@@ -255,6 +272,7 @@
       <workItem from="1614782303534" duration="609000" />
       <workItem from="1616073700149" duration="319000" />
       <workItem from="1616074025234" duration="319000" />
+      <workItem from="1618142307040" duration="1065000" />
     </task>
     <servers />
   </component>

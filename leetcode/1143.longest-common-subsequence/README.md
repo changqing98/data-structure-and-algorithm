@@ -9,13 +9,13 @@
 
 若这两个字符串没有公共子序列，则返回 0。
 
- 
+
 
 **示例 1:**
 
 ```
-输入：text1 = "abcde", text2 = "ace" 
-输出：3  
+输入：text1 = "abcde", text2 = "ace"
+输出：3
 解释：最长公共子序列是 "ace"，它的长度为 3。
 ```
 
@@ -35,7 +35,7 @@
 解释：两个字符串没有公共子序列，返回 0。
 ```
 
- 
+
 
 **提示:**
 
@@ -54,9 +54,9 @@
 $$
 dp[i]=
 \left\{
-\begin{matrix} 
+\begin{matrix}
 dp[i - 1][j - 1] + 1 , & text1[i] == text2[j] \\
-max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] 
+max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j]
 \end{matrix}
 \right.
 $$
