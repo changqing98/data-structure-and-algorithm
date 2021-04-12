@@ -10,8 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a077491d-a31e-4abb-a04a-d94009bdbde8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/mm/mm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowcoder/NC0145.knapsack/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowcoder/NC0145.knapsack/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -22,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/unix_progranmming.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../c&amp;c++/unix-progranmming/cmake-build-debug/unix_progranmming.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/dynamic-programming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/dynamic-programming/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../system-design/raft4j" beforeDir="false" afterPath="$PROJECT_DIR$/../system-design/raft4j" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +270,7 @@
       <workItem from="1614782303534" duration="609000" />
       <workItem from="1616073700149" duration="319000" />
       <workItem from="1616074025234" duration="319000" />
-      <workItem from="1618142307040" duration="1267000" />
+      <workItem from="1618142307040" duration="1429000" />
     </task>
     <servers />
   </component>
