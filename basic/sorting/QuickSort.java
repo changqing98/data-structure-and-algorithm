@@ -18,11 +18,11 @@ public class Quick {
 			while (start < end && array[end] >= tem) {
 				end--;
 			}
-			array[start] = array[end];
+			array[end] = array[start];
 			while (start < end && array[start] < tem) {
 				start++;
 			}
-			array[end] = array[start];
+			array[start] = array[end];
 		}
 		array[start] = tem;
 		return start;
