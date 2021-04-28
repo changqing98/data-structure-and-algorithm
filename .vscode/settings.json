@@ -1,21 +1,3 @@
 {
-    "go.inferGopath": false,
-    "java.project.referencedLibraries": [
-        "lib/*.jar"
-    ],
-    "python.testing.pytestArgs": [
-        "."
-    ],
-    "python.testing.unittestEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./basic",
-        "-p",
-        "test_*.py"
-    ],
-    "python.formatting.provider": "yapf",
-    "python.pythonPath": "/Users/changqing/opt/miniconda3/bin/python"
+  "java.project.referencedLibraries": ["lib/*.jar"]
 }
