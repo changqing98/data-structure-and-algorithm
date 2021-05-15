@@ -1,7 +1,7 @@
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ThreeThreadsAlternatePrinting {
+public class NThreadsAlternatePrinting {
 
     public static void main(String[] args) throws InterruptedException {
         Thread[] thread = new Thread[10];

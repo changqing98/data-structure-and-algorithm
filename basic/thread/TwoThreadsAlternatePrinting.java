@@ -1,6 +1,3 @@
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
-
 public class TwoThreadsAlternatePrinting {
 
     private volatile static int flag = 0;

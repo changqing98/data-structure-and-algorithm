@@ -2,6 +2,7 @@
   "java.project.referencedLibraries": ["lib/*.jar"],
   "java.project.sourcePaths": [
     "leetcode/0633.sum-of-square-numbers",
-    "leetcode/0128.longest-consecutive-sequence"
+    "leetcode/0128.longest-consecutive-sequence",
+    "basic/thread"
   ]
 }
