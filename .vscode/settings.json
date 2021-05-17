@@ -3,6 +3,7 @@
   "java.project.sourcePaths": [
     "leetcode/0633.sum-of-square-numbers",
     "leetcode/0128.longest-consecutive-sequence",
-    "basic/thread"
+    "basic/thread",
+    "leetcode/0207.course-schedule"
   ]
 }
