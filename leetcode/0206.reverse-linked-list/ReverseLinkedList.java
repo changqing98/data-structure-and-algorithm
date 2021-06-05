@@ -1,16 +1,26 @@
 public class ReverseLinkedList {
-    public ListNode reverseList(ListNode head) {
-        if(head == null || head.next == null){
+    public ListNode reverse(ListNode head) {
+        if (head == null || head.next == null) {
             return head;
         }
-        ListNode cur = head.next;
-        head.next = null;
-        while(cur != null){
-            ListNode tmp = cur.next;
-            cur.next = head;
-            head = cur;
-            cur = tmp;
+        ListNode cur = head;
+        ListNode pre = null;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
-        return head;
+        return pre;
+    }
+
+    public ListNode reverseByRecursion(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode pre = ReverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return pre;
     }
 }
