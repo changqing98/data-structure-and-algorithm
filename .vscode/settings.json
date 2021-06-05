@@ -2,9 +2,10 @@
   "java.project.referencedLibraries": ["lib/*.jar"],
   "java.project.sourcePaths": [
     "leetcode/0633.sum-of-square-numbers",
-    "leetcode/0234.palindrome-linked-list",
     "leetcode/0128.longest-consecutive-sequence",
+    "common",
     "basic/thread",
-    "common"
-  ]
+    "leetcode/0203.remove-linked-list-elements"
+  ],
+  "go.inferGopath": false
 }
