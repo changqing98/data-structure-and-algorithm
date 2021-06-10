@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/binary-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamic-programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gcd-and-lcm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lru" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/single-list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/thread" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/topk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>
