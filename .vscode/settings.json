@@ -5,7 +5,8 @@
     "leetcode/0128.longest-consecutive-sequence",
     "common",
     "basic/thread",
-    "leetcode/0203.remove-linked-list-elements"
+    "leetcode/0203.remove-linked-list-elements",
+    "leetcode/0518.coin-change-ii"
   ],
   "go.inferGopath": false
 }
