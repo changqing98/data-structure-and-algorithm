@@ -3,12 +3,12 @@ import java.util.List;
 import java.util.Stack;
 
 class InOrderTraversal {
-    public List<Integer> inorderTraversal(TreeNodeTraversal root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
-        Stack<TreeNodeTraversal> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.isEmpty()) {
             while (root != null) {
                 stack.add(root);
@@ -20,8 +20,4 @@ class InOrderTraversal {
         }
         return result;
     }
-
-	public static void main(String[] args) {
-
-	}
 }

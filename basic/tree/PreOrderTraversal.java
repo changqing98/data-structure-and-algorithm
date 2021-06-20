@@ -3,14 +3,14 @@ import java.util.List;
 import java.util.Stack;
 
 public class PreOrderTraversal {
-    public List<Integer> preorderTraversal(TreeNodeTraversal root) {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        if(root == null){
+        if (root == null) {
             return result;
         }
-        Stack<TreeNodeTraversal> stack = new Stack<>();
-        while(root != null || !stack.isEmpty()){
-            while(root != null){
+        Stack<TreeNode> stack = new Stack<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
                 result.add(root.val);
                 stack.add(root);
                 root = root.left;

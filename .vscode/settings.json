@@ -2,11 +2,12 @@
   "java.project.referencedLibraries": ["lib/*.jar"],
   "java.project.sourcePaths": [
     "leetcode/0633.sum-of-square-numbers",
+    "leetcode/0203.remove-linked-list-elements",
     "leetcode/0128.longest-consecutive-sequence",
     "common",
+    "basic/tree",
     "basic/thread",
-    "leetcode/0203.remove-linked-list-elements",
-    "leetcode/0518.coin-change-ii"
+    "nowcoder/NC0045.tree"
   ],
   "go.inferGopath": false
 }
