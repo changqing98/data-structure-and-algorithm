@@ -9,10 +9,10 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.go]
-indent_style = tab
+indent_style = space
 
 [{.gitconfig,.gitmodules}]
-indent_style = tab
+indent_style = space
 
 [Makefile]
-indent_style = tab
+indent_style = space

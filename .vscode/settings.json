@@ -1,3 +1,17 @@
 {
-  "java.project.referencedLibraries": ["lib/*.jar"]
+  "java.project.referencedLibraries": [
+    "lib/*.jar"
+  ],
+  "go.inferGopath": false,
+  "java.project.sourcePaths": [
+    "nowcoder/NC0045.tree",
+    "leetcode/0633.sum-of-square-numbers",
+    "leetcode/0203.remove-linked-list-elements",
+    "leetcode/0128.longest-consecutive-sequence",
+    "leetcode/0046.permutations",
+    "common",
+    "basic/tree",
+    "basic/thread",
+    "jian-zhi-offer/0038.Permutation"
+  ]
 }
