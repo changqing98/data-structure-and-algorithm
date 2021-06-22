@@ -1,4 +1,4 @@
-public class MergingSort {
+public class MergeSort {
 
 	public static void sort(int[] array) {
 		int len = array.length;

@@ -5,11 +5,11 @@ import org.junit.Test;
 
 public class RegularExpressionMatchingTest {
 
-    @Test
-    public void test(){
-        var inst = new RegularExpressionMatching();
-        assertFalse(inst.isMatch("aa", "a"));
-        assertTrue(inst.isMatch("aa", "a*"));
-        assertTrue(inst.isMatch("ab", ".*"));
-    }
+  @Test
+  public void test() {
+    RegularExpressionMatching inst = new RegularExpressionMatching();
+    assertFalse(inst.isMatch("aa", "a"));
+    assertTrue(inst.isMatch("aa", "a*"));
+    assertTrue(inst.isMatch("ab", ".*"));
+  }
 }

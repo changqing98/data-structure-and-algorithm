@@ -19,7 +19,7 @@ public class InsertionSort {
 
 	public static void main(String[] args) {
 		int[] array = new int[]{1, 4, 7, 2, 5, 9, 0, 2, 6};
-		sort(array);
+		insertionSort(array);
 		for (int i : array) {
 			System.out.println(i + " ");
 		}

@@ -1,16 +1,21 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class BinaryTreeLevelOrderTraversal {
-    public List<List<Integer>> levelOrder(TreeNodeTraversal root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if(root == null){
             return result;
         }
-        Queue<TreeNodeTraversal> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while(!queue.isEmpty()){
             List<Integer> item = new ArrayList<>();
             int size = queue.size();
             for(int i = 1; i<=size;i++){
-                TreeNodeTraversal rm = queue.poll();
+                TreeNode rm = queue.poll();
                 item.add(rm.val);
                 if(rm.left != null){
                     queue.add(rm.left);

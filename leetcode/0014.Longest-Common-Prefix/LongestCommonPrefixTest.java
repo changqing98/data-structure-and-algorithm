@@ -4,9 +4,9 @@ import org.junit.Test;
 
 public class LongestCommonPrefixTest {
 
-    @Test
-    public void test(){
-        var test = new LongestCommonPrefix();
-        assertEquals("f", test.longestCommonPrefix(new String[]{"fa", "fb"}));
-    }
+  @Test
+  public void test() {
+    LongestCommonPrefix test = new LongestCommonPrefix();
+    assertEquals("f", test.longestCommonPrefix(new String[] {"fa", "fb"}));
+  }
 }

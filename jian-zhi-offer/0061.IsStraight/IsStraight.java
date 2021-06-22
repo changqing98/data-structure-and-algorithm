@@ -1,9 +1,10 @@
 import java.util.HashSet;
+import java.util.Set;
 
 public class IsStraight{
 
     public boolean isStraight(int[] nums) {
-		var result = new HashSet<>();
+		Set<Integer> result = new HashSet<>();
 		int min = 14;
 		int max = 0;
 		for (int num : nums) {
@@ -21,7 +22,7 @@ public class IsStraight{
     }
 
 	public static void main(String[] args) {
-		var test = new IsStraight();
+		IsStraight test = new IsStraight();
 		System.out.println(test.isStraight(new int[]{1,2,3,4,5}));
 	}
 }

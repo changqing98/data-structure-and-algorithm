@@ -1,1 +1,1 @@
-# 实现 LRU
+- [LRU](../leetcode/0146.lru-cache)

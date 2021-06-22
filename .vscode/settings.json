@@ -9,9 +9,11 @@
     "leetcode/0203.remove-linked-list-elements",
     "leetcode/0128.longest-consecutive-sequence",
     "leetcode/0046.permutations",
+    "jian-zhi-offer/0038.Permutation",
     "common",
     "basic/tree",
     "basic/thread",
-    "jian-zhi-offer/0038.Permutation"
-  ]
+    "basic/binary-search"
+  ],
+  "java.project.outputPath": "out"
 }

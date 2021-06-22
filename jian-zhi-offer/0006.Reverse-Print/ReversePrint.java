@@ -60,7 +60,7 @@ public static int[] reversePrint(ListNode head){
 		ListNode node2 = new ListNode(2);
 		node1.next = node2;
 		int[] result = reversePrint(node1);
-		for(var i : result){
+		for(int i : result){
 			System.out.println(i);
 		}
 	}

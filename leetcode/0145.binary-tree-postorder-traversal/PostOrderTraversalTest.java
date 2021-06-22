@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertArrayEquals;
 
+import java.util.List;
 import org.junit.Test;
 
 public class PostOrderTraversalTest {
@@ -8,7 +9,7 @@ public class PostOrderTraversalTest {
 	public void test() {
 		TreeNode root = TreeNode.create();
 		PostOrderTraversal test = new PostOrderTraversal();
-		var result = test.postorderTraversal(root);
-		assertArrayEquals(new Integer[] { 4, 5, 2, 6, 3, 1 }, result.toArray(new Integer[] {}));
+    List<Integer> result = test.postorderTraversal(root);
+    assertArrayEquals(new Integer[] { 4, 5, 2, 6, 3, 1 }, result.toArray(new Integer[] {}));
 	}
 }
