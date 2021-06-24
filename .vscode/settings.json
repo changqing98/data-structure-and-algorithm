@@ -15,5 +15,6 @@
     "basic/thread",
     "basic/binary-search"
   ],
-  "java.project.outputPath": "out"
+  "java.project.outputPath": "out",
+  "python.formatting.provider": "yapf"
 }
