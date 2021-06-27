@@ -1,6 +1,9 @@
 public class MirrorTree {
+    /**
+     * 递归算法
+     */
     public TreeNode mirrorTree(TreeNode root) {
-        if(root != null){
+        if (root != null) {
             TreeNode tmp = root.left;
             root.left = mirrorTree(root.right);
             root.right = mirrorTree(tmp);
@@ -8,14 +11,26 @@ public class MirrorTree {
         return root;
     }
 
-    public static void main(String[] args) {
-
+    /**
+     * 镜像二叉树非递归
+     */
+    public TreeNode mirrorTreeNonRecursion(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+        TreeNode result = root;
+        Stack<TreeNode> stack = new Stack<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                TreeNode tmp = root.left;
+                root.left = root.right;
+                root.right = tmp;
+                stack.add(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            root = root.right;
+        }
+        return result;
     }
-
-	private static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int x) { val = x; }
-	}
 }
