@@ -1,9 +1,8 @@
-/**
- * 输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，
- * 所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
- */
 public class ReOrderArray {
 
+	/**
+	 * 需要保证相对顺序
+	 */
 	static void reOrderArray(int[] array) {
 		int k = 0;
 		for (int i = 0; i < array.length; i++) {
@@ -20,8 +19,32 @@ public class ReOrderArray {
 		}
 	}
 
+	/**
+	 * 不需要保证相对顺序
+	 */
+	public int[] exchange(int[] nums) {
+		int i = 0;
+		int j = nums.length - 1;
+		while (i < j) {
+			while (i < j && (nums[i] & 1) == 1) {
+				i++;
+			}
+			while (i < j && (nums[j] & 1) == 0) {
+				j--;
+			}
+			swap(nums, i, j);
+		}
+		return nums;
+	}
+
+	private void swap(int[] nums, int i, int j) {
+		int tmp = nums[i];
+		nums[i] = nums[j];
+		nums[j] = tmp;
+	}
+
 	public static void main(String[] args) {
-		int[] a = new int[]{1, 5, 2, 6, 7, 8, 3};
+		int[] a = new int[] { 1, 5, 2, 6, 7, 8, 3 };
 		reOrderArray(a);
 		for (int i : a) {
 			System.out.print(i + " ");
