@@ -13,7 +13,8 @@
     "common",
     "basic/tree",
     "basic/thread",
-    "basic/binary-search"
+    "basic/binary-search",
+    "src"
   ],
   "java.project.outputPath": "out",
   "python.formatting.provider": "yapf"
