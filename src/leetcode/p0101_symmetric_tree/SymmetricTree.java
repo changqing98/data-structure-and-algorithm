@@ -1,3 +1,7 @@
+package leetcode.p0101_symmetric_tree;
+
+import common.TreeNode;
+
 public class SymmetricTree {
   public boolean isSymmetric(TreeNode root) {
     if (root == null) {
@@ -15,24 +19,5 @@ public class SymmetricTree {
     }
     return node1.val == node2.val && isSymmetric(node1.left, node2.right) &&
       isSymmetric(node1.right, node2.left);
-  }
-
-  static class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-      this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-      this.val = val;
-      this.left = left;
-      this.right = right;
-    }
   }
 }

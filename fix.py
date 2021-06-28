@@ -2,7 +2,7 @@ import os
 
 if __name__ == '__main__':
   path = os.path.dirname(__file__)
-  dirs = ["basic", "common", "jian_zhi_offer", "leetcode", "nowcoder"]
+  dirs = ["basic", "common", "leetcode.jian_zhi_offer", "leetcode", "nowcoder"]
   for dir in dirs:
     sec_dir_a_path = path + "/src/" + dir
     for file in os.listdir(sec_dir_a_path):
