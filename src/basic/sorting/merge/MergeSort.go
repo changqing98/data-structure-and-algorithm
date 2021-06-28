@@ -1,4 +1,4 @@
-package sorting
+package merge
 
 func sort(arr []int) []int{
 	tmp := make([]int, len(arr))

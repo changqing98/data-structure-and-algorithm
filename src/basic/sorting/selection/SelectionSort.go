@@ -1,4 +1,4 @@
-package sorting
+package selection
 
 import "fmt"
 

@@ -1,4 +1,4 @@
-package sorting
+package heap
 
 func heapSort(array []int) []int {
 	length := len(array)

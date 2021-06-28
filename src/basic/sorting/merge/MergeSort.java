@@ -1,4 +1,4 @@
-package basic.sorting;
+package basic.sorting.merge;
 
 public class MergeSort {
 
@@ -13,8 +13,5 @@ public class MergeSort {
       int mid = (start + end) / 2;
       sort(array, start, mid, tem);
     }
-  }
-
-  public static void main(String[] args) {
   }
 }

@@ -1,4 +1,4 @@
-package basic.sorting;
+package basic.sorting.quick;
 
 public class QuickSort {
 
