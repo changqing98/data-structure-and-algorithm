@@ -1,3 +1,5 @@
+package leetcode.p0146_lru_cache;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,7 +29,6 @@ public class LRUCache {
     if (node == null) {
       node = new Node(key, value);
       addToHead(node);
-      size++;
       if (size > capacity) {
         map.remove(tail.key);
         removeTail();
@@ -76,6 +77,7 @@ public class LRUCache {
       head.pre = node;
       head = node;
     }
+    size++;
   }
 
   private static class Node {

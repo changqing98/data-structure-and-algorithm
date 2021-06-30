@@ -1,3 +1,5 @@
+package leetcode.p0146_lru_cache;
+
 import org.junit.Test;
 
 public class LRUCacheTest {

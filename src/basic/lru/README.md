@@ -1,1 +1,1 @@
-- [LRU](../leetcode/0146.lru-cache)
+- [LRU](../../leetcode/p0146_lru_cache)
