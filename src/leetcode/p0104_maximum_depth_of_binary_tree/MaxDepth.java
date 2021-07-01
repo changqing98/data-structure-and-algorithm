@@ -2,7 +2,7 @@ package leetcode.p0104_maximum_depth_of_binary_tree;
 
 import common.TreeNode;
 
-public class MaximunDepthOfBinaryTree {
+public class MaxDepth {
   public int maxDepth(TreeNode root) {
     if (root == null) {
       return 0;
