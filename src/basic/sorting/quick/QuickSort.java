@@ -20,11 +20,11 @@ public class QuickSort {
       while (start < end && array[end] >= tem) {
         end--;
       }
-      array[end] = array[start];
+      array[start] = array[end];
       while (start < end && array[start] < tem) {
         start++;
       }
-      array[start] = array[end];
+      array[end] = array[start];
     }
     array[start] = tem;
     return start;
