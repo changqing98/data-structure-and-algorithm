@@ -12,10 +12,10 @@
 ```
 输入：
 [2, 3, 1, 0, 2, 5, 3]
-输出：2 或 3 
+输出：2 或 3
 ```
 
- 
+
 
 **限制：**
 
@@ -40,16 +40,16 @@ $$ nums[i] = i,  0 <= i <= n - 1 $$
 步骤：
 
 1.  依次遍历数组
-2.  如果 i 位置上的数值 nums[i] != i ,我们就通过数组交换，把nums[i]放到正确的位置上，设nums[i] 数值为tmp，则其正确的位置应该是nums[tmp]
-3.  在交换前需要比较一下 如果 nums[tmp] == tmp ,则tmp即为一个重复数字，否则进行两个数的交换。
+2.  设数组 `i` 位置的数字为 `tmp` ,如果 `tmp != i` ,我们将 `tmp` 交换到到 `tmp` 应该在的位置，即 `nums[tmp]`
+3.  如果 `nums[tmp] == tmp` ,则 `tmp` 即为一个重复数字，否则进行两个数的交换。
 
 ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int tmp;
         for (int i = 0; i < nums.length; i++) {
-            while (nums[i] != i) { 
-                tmp = nums[i]; 
+            while (nums[i] != i) {
+                tmp = nums[i];
                 if (nums[tmp] == tmp) {
                     return tmp;
                 }
